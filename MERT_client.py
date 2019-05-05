@@ -37,7 +37,6 @@ def logoutFromServer(udpConnection, clientUsername):
     print("------[LOGGED OUT!]-----")
     print("\n")
     sys.exit()
-    tcpConnection.close()
 
 # Send message to server (e.g. show me on online list) by UDP
 def sendMessageToServer(udpConnection, data):
