@@ -1,3 +1,8 @@
+# Peer to Peer Chat
+# CMP2204 Term Project
+# Mert Gonul - Semih Ozsoy
+# Tested and running on OS X
+
 import socket, sys, threading, json, time, datetime
 
 # Connect to server(service) by given IP and Port
